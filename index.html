@@ -1,6 +1,6 @@
 <!doctype html>
 <!-- If multi-language site, reconsider usage of html lang declaration here. -->
-<html lang="en"> 
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -13,22 +13,54 @@
   <!-- Place favicon.ico in the root directory: mathiasbynens.be/notes/touch-icons -->
   <link rel="shortcut icon" href="favicon.ico" />
   <!--font-awesome link for icons-->
-  <link rel="stylesheet" media="screen" href="assets/vendor/font-awesome/css/all.min.css" >
+  <link rel="stylesheet" media="screen" href="assets/vendor/font-awesome/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
   <!-- Default style-sheet is for 'media' type screen (color computer display).  -->
-  <link rel="stylesheet" media="screen" href="assets/css/style.css" >
+  <link rel="stylesheet" media="screen" href="assets/css/style.css">
 </head>
 
 <body>
   <!--container start-->
   <div class="container">
     <!--main section start-->
-    <main>  
-      
+    <main>
+      <!-- feedback area start -->
+      <div class="feedback-area">
+        <div class="wrapper">
+          <div class="feedback-category">
+            <h1 class="question">how satisfied are you with our
+              customer support performance?</h1>
+            <ul class="feedback-cards">
+              <li class="feedback-list">
+                <span class="feedback">unhappy</span>
+              </li>
+              <li class="feedback-list">
+                <span class="feedback">neutral</span>
+              </li>
+              <li class="feedback-list active-list">
+                <span class="feedback">satisfied</span>
+              </li>
+            </ul>
+            <div class="button">
+              <a href="#FIXME" title="Send Review" rel="noopener noreferrer" class="review-btn">send review</a>
+            </div>
+          </div>
+          <div class="result">
+            <div class="heart">
+              <span class="logo heart-icon">heart</span>
+            </div>
+            <h2 class="thank-heading">thank you!</h2>
+            <h3 class="feedback-result">feedback:<span class="feedback-text">text</span></h3>
+            <p class="message">we'll use your feedback to improve our customer support</p>
+          </div>
+        </div>
+      </div>
+      <!-- feedback area end -->
     </main>
     <!--main section end-->
   </div>
   <!--container end-->
   <script src="assets/js/script.js"></script>
 </body>
+
 </html>
